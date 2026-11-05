@@ -189,12 +189,13 @@ Run the focused checks after training:
 python -m unittest discover -s tests -v
 ```
 
-## Screenshots
+## APP Link & Preview
+
+Live Link : https://retail-demand-forecasting-04.streamlit.app/
 
 <img width="1917" height="967" alt="Screenshot 2026-11-05 175316" src="https://github.com/user-attachments/assets/fd8d9ad6-16e9-4b01-b06e-97ec3858d86d" />
 
-Add screenshots of the Home Dashboard, Model Performance, and prediction
-sections here after running the application.
+
 
 ## Future improvements
 
