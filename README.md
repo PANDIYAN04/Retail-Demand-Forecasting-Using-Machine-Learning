@@ -189,26 +189,6 @@ Run the focused checks after training:
 python -m unittest discover -s tests -v
 ```
 
-## Streamlit Community Cloud deployment
-
-1. Create a GitHub repository and push the project, including
-   `requirements.txt`, `app.py`, `modeling.py`, `models/demand_pipeline.joblib`,
-   its metrics/plot data files, and `demand_forecasting.csv`.
-2. Keep the model bundle and dataset in the repository. They are required at
-   runtime; the app does not download local files from your computer or retrain
-   automatically.
-3. In Streamlit Community Cloud, choose **Create app**, select the repository
-   and branch, set the main file to `app.py`, and deploy. Use Python 3.11 or a
-   version supported by all dependencies in `requirements.txt`.
-4. For model changes, run `python train_model.py`, commit the updated `models/`
-   artifacts, and push the changes. Do not upload secrets or user data.
-
-GitHub permits individual files smaller than 100 MB. The supplied CSV and
-generated model are intended to be stored directly in the repository. If a
-future model artifact exceeds GitHub's file limit, use Git LFS and ensure the
-deployment environment can retrieve the LFS object; a pointer file alone is
-not a usable model.
-
 ## Screenshots
 
 Add screenshots of the Home Dashboard, Model Performance, and prediction
