@@ -1,6 +1,6 @@
 # Retail Demand Forecasting Using Machine Learning
 
-A beginner-friendly retail analytics and demand estimation project built with
+A retail analytics and demand estimation project built with
 Python, scikit-learn, XGBoost, Plotly, and Streamlit. The dashboard explores
 historical sales patterns, compares three regression models, and predicts
 demand from product category, price, discount, inventory, promotion, and
