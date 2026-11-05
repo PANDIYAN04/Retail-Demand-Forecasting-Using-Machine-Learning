@@ -1,0 +1,13 @@
+Feature,Importance
+numeric__Price,0.30139506899628077
+categorical__Category_Furniture,0.1582066010441786
+numeric__Promotion,0.1384877244028498
+numeric__Inventory Level,0.09206193211124543
+numeric__Competitor Pricing,0.07093081297131287
+categorical__Category_Groceries,0.06972714353370675
+numeric__Discounted Price,0.056016036537787674
+numeric__Price Difference,0.04837692188484107
+numeric__Discount,0.024454631823123685
+categorical__Category_Electronics,0.022315919171853195
+categorical__Category_Clothing,0.013689437472988916
+categorical__Category_Toys,0.004337770049831358
